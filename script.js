@@ -17,6 +17,10 @@ window.onclick = function(event) {
   }
 }
 
+window.onload = function(){
+  modal.style.display = "block";
+}
+
 //THE LOGIN INFO
 var user = document.getElementById("uname");
 var password = document.getElementById("psw");
